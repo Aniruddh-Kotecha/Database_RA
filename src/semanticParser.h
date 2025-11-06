@@ -1,0 +1,39 @@
+#pragma once
+#include"syntacticParser.h"
+
+bool semanticParse();
+
+bool semanticParseCLEAR();
+bool semanticParseCROSS();
+bool semanticParseDISTINCT();
+bool semanticParseEXPORT();
+bool semanticParseINDEX();
+bool semanticParseJOIN();
+bool semanticParseLIST();
+bool semanticParseLOAD();
+bool semanticParsePRINT();
+bool semanticParsePROJECTION();
+bool semanticParseRENAME();
+bool semanticParseSELECTION();
+bool semanticParseSORT();
+bool semanticParseSOURCE();
+bool semanticParseGROUPBY();
+
+
+
+bool semanticParseLOADMatrix();
+bool semanticParseEXPORTMatrix();
+bool semanticParseROTATE();
+bool semanticParsePRINTMatrix();
+bool semanticParseCROSSTRANSPOSE();
+bool semanticParseCHECKANTISYM();
+
+
+bool semanticParseORDERBY();
+bool semanticParseCHECKANTISYM();
+
+
+bool semanticParseINSERT();
+bool semanticParseUPDATE();
+bool semanticParseDELETE();
+bool semanticParseSEARCH();
