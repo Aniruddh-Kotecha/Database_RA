@@ -290,14 +290,14 @@ Given:
 - **Size of int** = 4 B 
 
 #### Formula:
-$\lfloor\sqrt{\frac{\text{max\_block\_size}}{\text{sizeof(int)}}}\rfloor$
+$\lfloor\sqrt{\frac{\mathrm{max\_block\_size}}{\mathrm{sizeof(int)}}}\rfloor$
 
 **Final result = MaxRowPerBlock**: `15`
 **Max Sub Matrix Size** :`15x15`
 
-**Number of pages in one row = blocksInOneRow** = $\frac{\text{matrix\_row\_size}}{\text{MaxRowPerBlock}}$
+**Number of pages in one row = blocksInOneRow** = $\frac{\mathrm{matrix\_row\_size}}{\mathrm{MaxRowPerBlock}}$
 
-**Number of pages in one column = blocksInOneCol** = $\frac{\text{matrix\_col\_size}}{\text{MaxRowPerBlock}}$
+**Number of pages in one column = blocksInOneCol** = $\frac{\mathrm{matrix\_col\_size}}{\mathrm{MaxRowPerBlock}}$
 
 - Above two aspects are virtually and use for accessing purpose. They are not physically exist.
 - All pages are stores sequatially in secondary memory.
